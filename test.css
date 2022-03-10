@@ -1,0 +1,136 @@
+body 
+{
+	width: 100%;
+	margin: 0 auto;
+	background-color:#191919;
+	overflow: auto;
+
+	
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+
+#container
+{
+	max-width: 100%;
+	width: 100%;
+	margin: 0 auto;
+
+
+}
+
+.parent1
+{
+	width:100%;
+	height:105px;
+	background-color:#102038;
+	font-family: arial;
+	border-bottom:2.5px solid #244E83;
+
+}
+
+.parent2
+
+{
+	
+	width:100%;
+	background-color:#124712;
+	height:500px;
+	z-index:1;
+	
+}
+
+
+
+.child1 .child2
+{
+	position:absolute;
+	z-index:9999;
+}
+
+textarea[name=textarea] 
+{
+  resize: none;
+  border-radius: 20px 20px 20px 20px;
+  outline:0;
+  padding: 1.4vh;
+  max-width:45em;
+  width:61vh;
+  background-color:#e9e9e9;
+}
+
+textarea:hover, textarea:focus
+{
+	 background-color:#f9f9f9;
+}
+
+#autoresizing 
+{
+  display: block;
+  overflow: hidden;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* STYLIZACJA SEARCHA I LISTY */
+
+#search1
+ {
+	width:400px;
+	font-size:24px
+ }
+ 
+ #here1
+ {
+	 
+	 width:397px;
+	 border-left: 1px solid gray;
+	 border-right: 1px solid gray;
+	 display: none;
+	 		
+ }
+ 
+ #here1 a
+ {
+	 display: block;
+	  border-bottom: 1px solid gray;
+	 font-size:20px;
+
+
+ }
+ 
+ .search_rows
+ {
+ display:inline;
+ position:relative; top:-1.3rem;
+ margin-left:.5rem;
+ 
+ }
+ 
+ .search_rows_style
+ {
+	padding:0.5rem;
+	transition: all 0.25s ease-in-out
+
+ }
+ 
+  .search_rows_style:hover
+  {
+  background-color:gray;
+  }
+  
+  

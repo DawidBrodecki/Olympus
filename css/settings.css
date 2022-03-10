@@ -1,0 +1,249 @@
+#Mainbar
+{
+	max-width:150em;
+	width:100%;
+	margin: 0 auto;
+	padding-top:5rem;
+
+}
+
+#leftbar
+{
+	float:left;
+
+	margin-right:2%;
+
+	
+}
+
+#righbar
+{
+	float:left;
+	background-color: inherit;
+	border:1px solid #323334;
+	max-width:70%;
+	width: 100%;
+	margin-top:-1px;	
+	color:#e3e3e3e3;
+	border-bottom:none;
+
+}
+
+
+button.tablinks
+{
+	display: block;
+	background-color: inherit;
+	padding: 22px 16px;
+	max-width: 100%;
+	width: 100%;
+	border:1px solid #323334;
+	outline: none;
+	text-align: left;
+	cursor: pointer;
+	transition: 0.3s;
+	margin-top:-1px;
+	
+}
+
+
+.settings-block
+{
+	font-size: 17px;
+	color:#c1c2c2;
+	margin-left:5%;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap; 
+}
+
+button.tablinks:hover
+{
+	background-color:#515151;
+}
+
+button.tablinks.active
+{
+	background-color:#6d6d6d;
+}
+
+.tabcontent
+{
+	color:#e9e9e9;
+	font-family:Segoe UI;
+
+}
+
+.settings
+{
+	padding:15px 20px;
+	color:#e3e3e3e3;
+	font-size:16px;
+	border-bottom:1px solid #323334;
+
+	
+
+
+
+}
+
+.saveoption
+{
+	padding:7px;
+	width:80px;
+	outline: none;
+	border: none;
+	background-color: #e3e3e3;
+	cursor:pointer;
+	transition: all 0.1s ease-in-out;
+	
+}
+
+.saveoption:hover
+{
+		filter: brightness(0.9);
+}
+
+.containerTab
+{
+	display:block;
+	margin: 0 auto;
+	width:26em;
+	color:#919293;
+	font-weight:550;
+	background-color:#0a0a0a;
+	border:1px solid #323334;
+	padding:1rem;
+	position:relative;
+
+}
+
+.StyleInput
+{
+	height:20px;
+	background-color:#cccccc;
+	font-size:14px;
+}
+
+input.StyleInput:focus
+{
+	background-color:#f7f7f7;
+}
+
+.CheckboxPass
+{
+		display:inline-block;
+}
+
+.closebtn
+{
+	display:inline-block;
+	background-color:inherit;	
+	margin-top:1.3rem;
+	padding:0.6rem;
+	border:1px solid #323334;
+	color:#919293;
+	font-weight:550;
+	font-size:14px;
+	position:relative; left:37.5rem;
+	cursor:pointer;
+	transition: all 0.1s ease-in-out;
+}
+
+
+.closebtn2
+{
+	position:relative; left:0rem!important;
+}
+
+
+.closebtn:hover, .settings-saveoptionBtn:hover
+{
+	filter: brightness(1.2);
+}
+
+.TabButton
+{
+	float:right; 
+	padding-right:0.5rem; 
+	color:#0f96f0;
+	cursor:pointer;
+}
+
+.TabButton:hover
+{
+	text-decoration:underline;
+}
+
+input::placeholder
+{
+	color: gray;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.settings-saveoptionBtn
+{
+
+ height:3.5rem;
+padding-bottom:1.5px;	
+font-size:15px!important;
+	
+}
+
+.blocked_user
+{
+	float:left;
+	padding:5px;
+	border:1px solid #323334;
+	margin-right:10px;
+	margin-top:-2px;
+}
+
+.fa_x
+{
+	color:#81a8e6;
+	cursor:pointer;
+	transition: all 0.15s ease-in-out;
+}
+
+.fa_x:hover
+{
+	color:#f53d3d;
+}	
+
+.tooltip1 {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip1 .tooltiptext1 
+{
+  visibility: hidden;
+  font-size:13px;
+  width:70px;
+  background-color: #DEDEDE;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute; 
+  z-index: 1;
+  opacity:1;
+  transition: 0.15s ease-out;
+  margin-left:0.3rem;
+  margin-top:2rem;
+
+}
+
+.tooltip1:hover .tooltiptext1 
+{
+  visibility: visible;
+}
+
+.btn_unblock
+{
+	background-color:inherit;	
+	padding:1px;
+	border:none;
+}

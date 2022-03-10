@@ -1,0 +1,356 @@
+#upperbar
+{
+
+	width:100%;
+	max-width:100%;
+	position:relative;
+	display:block;
+	height:410px;
+	border-bottom: 0.1px solid #323334;
+	overflow:hidden;
+}
+
+#leftbar
+{
+	float:left;
+	max-width:45em;
+	width:45em;
+	margin-right:-1px;
+	border-right: 1px solid #323334;
+	overflow:hidden;
+}
+
+#rightbar
+{
+	float:left;
+	max-width:39%;
+	width:39%;
+	padding-left:4px;
+	border-left: 1px solid #323334;
+
+}
+
+#backgroundphoto
+{
+	
+	height:325px;
+	margin: 0 auto;
+	box-shadow:
+	 2px 2px 3px black, -2px -2px 3px black;
+}
+
+.backgroundphotoBtn
+{
+	font-size:2rem!important;
+	opacity:0.4!important;
+	position:relative;
+	top:5px;
+	right:5px;
+	cursor:pointer;
+	transition: all 0.25s ease-in-out;
+}
+
+.backgroundphotoBtn:hover
+{
+	opacity:.9!important;
+	background-color:#3a3b3c!important;
+}
+
+#userdata
+{
+
+	margin:0 auto;
+	position:relative;
+	top:17rem;
+
+}
+
+#userphoto
+{
+	position:relative;
+	z-index:1;
+}
+
+#userphoto:hover
+{
+	filter: brightness(1.055);
+}
+
+#my-username
+{
+
+	font-size: 3.3em;
+	color: #E3E3E3;
+	font-weight:800;
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+	text-shadow:3px 3px 2px black;
+	background-color: rgba(50, 50, 50, .35);
+	border-radius:50px 50px 50px 50px;
+	padding:12px;
+	position:relative;
+	top:18.2rem;
+	margin-left:2.15rem;
+	max-width:50vw;
+	display:inline-block;
+
+}
+
+#userinfo
+{
+
+	color:#e3e3e3;
+	font-size: 2.1rem;
+	position:relative;
+	padding-top:0.5rem;
+	overflow:hidden;
+}
+
+.userinfo
+{
+
+	text-decoration:underline;
+}
+
+
+
+.kog
+{
+
+
+
+
+}
+
+.kog:hover, .kog:focus
+{
+
+
+}
+
+
+
+.upload, .backgroundphotoBtn
+{
+	color:#e3e3e3;
+	padding:5px;
+	opacity:0.5;
+	border-radius:50px 50px 50px 50px;
+	font-size:2.2rem;
+	margin-right:8px;
+	margin-top:5px;
+	transition: transform 0.2s ease-in-out;
+	z-index:1;
+	
+}
+
+#upload
+{
+	position: absolute;
+	bottom:-0.15rem; 
+	left:19.3rem;
+	border: 2px solid #3a3b3c;
+	background-color:#3a3b3c;
+	font-size:2rem;
+	opacity:0.95;
+	cursor:pointer;
+}
+
+.upload:hover
+{
+	background-color: #666666;
+	opacity:0.7;
+	color:white;
+	transform: scale(0.95);
+	filter: brightness(1.2);
+}
+
+#uploadbtn
+{
+	outline:none;
+	border:none;
+	background-color:inherit;
+}
+
+
+#about-me
+{
+	max-width:100%;
+	width:100%;
+	margin-top:2rem;
+	padding:1.5rem 1rem 1rem 1.2rem;
+	background-color:#242526;
+	color: #c1c2c2;
+	font-size:17px;
+	border-radius:12px 12px 12px 12px;
+
+}
+
+#friends-list, #gallery
+{
+	max-width:100%;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+	margin-top:2rem;
+	padding:1.5rem 1rem 1rem 1rem;
+	background-color:#242526;
+	border-radius:12px 12px 12px 12px;
+}
+
+.padding
+{
+	padding-right:0.5rem;
+
+
+}
+
+.freads-list-user
+{
+	color:#e3e3e3;
+	font-size:14px;
+	font-family:arial;
+	font-weight:550;
+	padding-top:0.5rem;
+	max-width:107px; 	
+	overflow:hidden;
+	text-align:center;
+
+}
+.Leftbarbottom
+{
+	padding-top:1rem;
+	margin-left:-3.8em;
+}
+
+.leftbarbottomstyle
+{
+	list-style-type: none;
+	color:#E3E3E3;
+	font-size:1.3rem;	
+	max-width:100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap; 
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  left: -31px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(0%);
+  transition: 0.3s;
+
+}
+
+.icon-bar a {
+  display: block;
+  padding: 16px;
+  margin-top:5px;
+  transition: all 0.3s ease;
+  color: #e3e3e3;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+
+}
+
+.icon-bar:hover {
+    left: 0;
+}
+
+.toggle
+{
+	background-color: #2f2f2f;
+}
+
+input#img-upload[type="file"], input#photo_upload, input#backgroundphoto_upload {
+    display: none;
+}
+
+.photo_file_upload
+{
+	padding: 6px 20px!important;
+
+}
+
+.custom-file-upload 
+{
+    border: 1px solid #3a3b3c;
+	background-color:#3a3b3c;
+	border-radius: 8px 8px;
+    padding: 7px 120px;
+    cursor: pointer;
+	color:#e3e3e3;
+	font-size:1.7rem;
+	font-family:Segoe UI;
+	font-weight:600;
+	margin-left:1.2rem;
+	transition: all 0.2s ease-in-out;
+}
+
+.custom-file-upload:hover
+{
+	filter: brightness(1.15);
+}
+
+.photo_file_upload:hover
+{
+	filter: brightness(1.35);
+}
+
+
+.my-username_padding
+{
+	padding-right:1.1rem;
+}
+
+.descritpion_show_btns
+{ 
+display:none;
+}
+
+.textarea-style
+{
+  resize: none;
+  border-radius: 8px 8px;
+  padding:1rem;
+  width:41rem;
+  background-color:#4d4d4d;
+  overflow: hidden;
+  border: none;
+  color:LightGray;
+  font-family:Times New Roman;
+  text-align:left;
+  font-size: 15.5px;
+
+
+}
+
+ .textarea-style1
+ {
+	 background-color:#242526!important;
+	 color:#E3E3E3E3!important;
+	color: #c1c2c2;
+    font-size: 17px;
+
+ }
+ 
+ .textarea-style1:focus, .textarea-style1:hover
+ {
+	 background-color: #595959!important;	
+ }
+
+.textarea-style:hover, .textarea-style:focus
+{
+	background-color: #525252;	
+}
+
+#preview, #preview2, #preview3
+{
+	padding:15px;
+	max-width:70%;
+}

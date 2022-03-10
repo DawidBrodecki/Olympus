@@ -1,0 +1,175 @@
+body 
+{
+	width: 100%;
+	margin: 0 auto;
+	background-color:#191919;
+	overflow: auto;
+	position:relative;
+	
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 9px;
+}
+
+a
+{
+	color:#E3E3E3;
+	text-decoration: none;
+}
+
+#container
+{
+	max-width: 100%;
+	width: 100%;
+	margin: 0 auto;
+	display:inline-block;
+	position:relative;
+
+
+
+}
+
+.sticky 
+{
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 11.7em;
+}
+
+
+
+.tranformdown
+{
+	transition: transform 0.2s ease-in-out;
+}
+
+.tranformdown:hover
+{
+	transform: scale(2.020);
+}
+
+.textwrap
+{
+	overflow:hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap; 
+	
+}
+
+.underline:hover
+{
+	text-decoration:underline;
+}
+
+.icononclick
+{
+	padding:4px 5px 3px 5px;
+	border-radius:25px 25px 25px 25px;
+	transition: all 0.2s ease-in-out;
+}
+
+.icononclick:hover
+{
+	background-color:#666666;
+}
+
+.footer
+{
+	padding-top:1rem;
+	max-width:100%;
+	width:100%;
+	overflow:hidden;
+}
+
+.footerstyle
+{
+	list-style-type: none;
+	color:#E3E3E3;
+	font-size:1.3rem;	
+	margin-left:-4rem;
+
+}
+
+#myBtn
+{
+	background-color:inherit;
+	outline:none;
+	border:none;
+	color: #F9F9F9;
+	font-weight:700;
+	font-size:2rem;
+	padding:0px;	
+}
+
+.ButtonGlobal
+{
+	background-color:inherit;
+	color:#e3e3e3;
+	outline:none;
+	border:none;
+	cursor:pointer;
+}
+
+#myBtn:hover
+{
+	background-color:#1C3A5E;
+}
+
+.PHP_error
+{
+	padding-top:1rem;
+}
+
+img
+{
+	transition: all 0.25s ease-in-out
+}
+
+img:hover
+{
+	filter: brightness(1.080);
+}
+
+.borderradius
+{
+	border-radius:50px 50px 50px 50px;
+}
+
+.tooltip_global {
+  position: relative;
+  display: inline-block;
+  
+
+}
+
+.tooltip_global .tooltiptext_global
+{
+  visibility: hidden;
+  font-size:13px;
+  width:50px;
+  background-color: #DEDEDE;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 4px 0;
+  position: absolute; 
+  z-index: 1;
+  opacity:0.9;
+  transition: 0.15s ease-out;
+  margin-left:0.3rem;
+
+}
+
+.tooltip_global:hover .tooltiptext_global
+{
+  visibility: visible;
+}
+
+.child1 .child2
+{
+	position:absolute;
+	z-index:9999;
+}

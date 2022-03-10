@@ -1,0 +1,241 @@
+#header
+{
+	float:left;
+	max-width:100%;
+	width:100%;
+	height:105px;
+	background-color:#102038;
+	font-family: arial;
+	padding-top:2px;
+	border-bottom:2.5px solid #244E83;
+	z-index: 99;	
+}
+
+
+.header-left_section
+{
+	float:left;	
+	width:47.5%;
+	max-width:33,33%;
+	display:inline;
+	position:relative;
+	left:-1.5rem;
+	padding-top:3.4em; 
+
+}
+
+.logo
+{
+	float:left;
+	margin-top:-1.7em; 
+}
+
+.logo-image
+{
+	float:left;
+	margin-top:-1.4em; 
+}
+
+.logo-caption
+{
+	float:left;
+	position:relative;
+	left:-2.65rem;
+	text-transform: uppercase;
+	font-family: 'Lobster', cursive;
+	text-shadow:5px 5px 5px black;
+	font-weight: 550;
+	font-style: italic;
+	color:#fafafa;
+}
+
+
+#search-header,  #display_search
+{
+	float:left;	
+	width:28.71vh;
+	background-color:#F9F9F9;
+	color:#5A5A5A;
+	border-radius: 16px 16px;
+
+
+}
+
+.header-middle_section
+{
+
+	float:left;
+	width:5%;
+	position:relative;
+	left:-1.5rem;
+	top:2rem;
+}
+
+.MainPageBtn
+{
+	text-align:center;
+}
+
+.MainButton2
+{
+	color:#E3E3E3!important;
+	border-bottom: 4px solid #E3E3E3!important;
+}
+
+#MainButton
+{
+	
+	color:#3A7CD4;
+	border-bottom: 4px solid #3A7CD4;
+	width:80px; 
+	  transition: 0.2s ease-out;
+}
+
+
+
+#MainButton:hover
+{
+	opacity:0.8;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext 
+{
+  visibility: hidden;
+  font-size:18px;
+  width: 140px;
+  background-color: #DEDEDE;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 0;
+  position: absolute; top:17px;
+  z-index: 1;
+  opacity:0.8;
+  transition: 0.2s ease-out;
+  margin-left:0.2em;
+  margin-top:-0.15em;
+}
+
+.tooltip:hover .tooltiptext 
+{
+  visibility: visible;
+}
+
+.header-right_section
+{
+	float:left;
+	width:47.5%;
+	position:relative;
+	left:-1rem;
+	overflow:hidden;
+}
+
+#nav
+{
+	float:right;
+	
+}
+
+.linav
+{
+	display:inline;
+}
+
+.NavStyle 
+{
+	font-size: min(max(2.4vh, 2.55vh), 2.1rem);
+	color: #F9F9F9;
+	text-decoration:none;
+	border-radius: 50px 50px 50px 50px; 
+	padding:8px;
+	transition: 0.3s;
+	font-weight:700;
+	
+	
+}
+
+.NavStyle:hover
+{
+	background-color:#1C3A5E;
+}
+
+#myBtn
+{
+	transition: 0.25s;
+	cursor:pointer;
+}
+
+button#myBtn:focus
+{
+	color:#357ad4;
+}
+
+
+#InvitationsNumber
+{
+	color: #F9F9F9;
+	background-color:green;
+	border-radius: 50px 50px 50px 50px; 
+	padding-left: 9px;
+	padding-right: 9px;
+	text-decoration:underline;
+}
+
+
+.navpicked
+{
+	background-color:#1C3A5E;
+	color:#357ad4 !important;
+}
+
+#WelcomingBox
+{
+	
+	float:right;
+	max-width:250px;
+	width:250px;
+	margin-top:6px;
+	position:relative;
+	right:8.5rem;
+	overflow:hidden;
+	
+}
+
+
+.UserPhoto
+{
+
+	float:left;
+	max-width:20%;
+}
+
+#UserName
+{
+
+	float:left;
+	position:relative;
+	top:1.1rem;
+	left:0.7rem;
+	max-width:80%;
+	font-size: 18px;
+	color: #F9F9F9;
+	font-weight:550;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap; 
+
+
+
+}
+
+#UserName:hover
+{
+	text-decoration:underline;
+	
+}

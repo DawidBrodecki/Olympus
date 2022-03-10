@@ -1,0 +1,110 @@
+#Mainbar
+{
+	float:left;
+	max-width:133em;
+	width:62.4%;
+	overflow:hidden;
+	background-color:#242526;
+	padding-left:15px;
+	padding-right:15px;
+	margin-top:2.2rem;
+	border-radius:15px 15px 15px 15px;
+	
+
+}
+
+#NavOptions
+{
+	float:left;
+	width:100%;
+	padding-top:1.5em;
+
+}
+
+.NavOptions
+{
+	float:left;
+	font-size:23px;
+	color:#e9e9e9;
+	font-weight:550;
+	font-family:Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+#list-of-friends
+{
+	width:100	%;	
+}
+
+.columnleft
+{
+	float:left;
+	width:50%;
+	padding-bottom:1.6rem;
+}
+
+.trash_delete_photo_icon
+{
+	
+	font-size:13px;
+	opacity:0.9;
+	color:#c1c2c2;
+	border-radius: 8px 8px;
+    padding: 6px 9px;
+	transition: all 0.2s ease-in-out;
+	cursor:pointer;
+}
+
+.trash_delete_photo_icon:hover
+{
+		background-color: #3a3b3c;
+		color:red;
+}
+
+.friendsphoto
+{
+	border-radius: 10px 10px 10px 10px;
+}
+
+
+.friend
+{
+	float:left;
+	width:98%;
+	padding:12px;
+	border: 1px solid #2d2e2f;
+	border-radius: 10px 10px 10px 10px;
+}
+
+
+.friend-style
+{
+	font-size:16.5px;
+	color:#e3e3e3e3;
+	font-family:arial;
+	font-weight:550;
+	padding-left:1.1rem;
+	line-height:1.35;
+}
+
+#search_friend_list,  #display_list_of_friends
+{
+	float:left;	
+	width:28.71vh;
+	background-color:#F9F9F9;
+	color:#5A5A5A;
+	border-radius: 16px 16px;
+
+
+}
+
+#display_list_of_friends
+{
+	margin-top:-0.2rem;
+}
+
+#search_friend_list #display_list_of_friends
+{
+	position:absolute;
+	z-index:9999;
+}
+

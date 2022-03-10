@@ -1,0 +1,187 @@
+.main
+{
+		
+	
+	/*min-width:32%;*/
+	width:64rem;
+	position:fixed;  right:35%; top:0;
+	background-color:#353535;	
+	border-radius: 6px 6px 6px 6px;
+	padding:15px;
+	z-index:99;
+	display:none;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s;
+	overflow-y: auto;
+	overflow-x: hidden;
+	
+
+	
+}
+
+@-webkit-keyframes animatetop {
+  from {top:-200px; opacity:0} 
+  to {top:0px; opacity:1}
+}
+
+
+.request
+{
+
+	border-radius: 6px 6px 6px 6px;
+	width:100%;
+	border:1px solid gray;
+	color:#e3e3e3;
+	font-weight:550;
+	font-size:16px;
+	line-height:1.25;
+	position:relative;
+	  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+
+
+}
+
+.close
+{
+	float:right;
+	font-size: 19px;
+    font-weight: 900;
+    cursor: pointer;
+    padding: 4px 9px;
+    margin: 6px 0;
+    border-radius: 50px 50px 50px 50px;
+    border: 1px solid #3a3b3c;
+    transition: all 0.25s ease-in-out;
+    background-color: #4f4f4f;
+}
+
+.closenow
+{
+	float:right;
+	font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+    padding: 4px 9px;
+    margin: 6px 0;
+    border-radius: 50px 50px 50px 50px;
+    border: 1px solid #3a3b3c;
+    transition: all 0.25s ease-in-out;
+    background-color: #4f4f4f;
+	position:relative; top:-11px; right:-4px;
+}
+
+.closenow:hover
+{
+	opacity:0.7;
+	color:white;
+}
+
+#left
+{	
+	max-width:100%;
+	margin-left:5px;
+	position:relative;
+
+
+
+
+}
+
+#right
+{
+
+	text-align:center;
+	padding-top:14px;
+	font-size:18px;
+	margin-right:1px;
+	
+}
+
+.AcceptOrReject
+{
+	display: inline-block;
+	font-weight:900;
+	border-radius: 25px 25px;
+	transition: transform 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+.AcceptOrReject:hover
+{
+		transform: scale(1.1);
+}
+
+.InvitationsChoose
+{
+	display:inline-block;
+	font-size:20px;
+	padding:5px 7px;
+	margin-left:5px;
+	border-radius: 50px 50px 50px 50px;
+    border: 1px solid #3a3b3c;
+    transition: all 0.25s ease-in-out;
+    background-color: #4f4f4f;
+	cursor: pointer;
+	z-index:-1;
+}
+
+.InvitationsChoose1:hover
+{
+	 background-color: #3A7CD4;
+	 	transform: scale(1.1);
+}
+
+.NoFriends
+{
+	display:inline-block;
+	width:100%;
+	padding:12px;
+	border: 1px solid gray;
+	border-radius: 6px 6px;
+	text-align:center;
+	margin-top:0.9rem;
+	color:#E3E3E3;
+	font-size:1.8em;
+	font-family: arial;
+}
+
+
+.rightbar-contacts
+{
+	border-radius: 50px 50px 50px 50px;
+	transition: all 0.2s ease-in-out;
+	padding:3px;
+	color:#E3E3E3;
+	font-family: arial;
+	font-weight:550;
+	font-size: 1.75vh;
+	margin-left:1px;
+	margin-top:3px;
+	margin-bottom:4px;
+}
+
+.rightbar-contacts:hover
+{
+	background-color: #666666;
+}
+
+.rightbar-contacts-user
+{
+	display:inline-block;
+	position:relative; top: -1.82rem; left: 0.8rem;
+	margin-top: 4px;
+}
+
+.rightbar-contacts-image
+{
+	display:inline-block;
+	margin-top: 4px;
+	margin-left: 3px;
+
+}
